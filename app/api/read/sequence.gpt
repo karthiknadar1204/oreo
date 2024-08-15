@@ -1,0 +1,8 @@
+tools: sys.write, sys.read, sys.download, sys.find
+tools: github.com/gptscript-ai/image-generation
+args: text: The parsed docker files
+args: dir: Directory to save the created files to
+
+
+1. Read the entire dockerfile ${text}.
+2. generate 10 1024x1792 b-roll image and save them to: "${dir}/b-roll-${INDEX}.png"
